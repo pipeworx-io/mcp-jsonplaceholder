@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-jsonplaceholder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSONPlaceholder MCP — wraps JSONPlaceholder fake REST API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-jsonplaceholder": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "jsonplaceholder"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-jsonplaceholder"
+    "url": "git+https://github.com/pipeworx-io/mcp-jsonplaceholder.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-fd793eaa2e0a3192e0b22ffa01af29c57b365a01a5cfed314c6fafd3ad504fa6",
+    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
   }
 }
