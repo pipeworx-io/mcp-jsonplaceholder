@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-jsonplaceholder",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "JSONPlaceholder MCP — wraps JSONPlaceholder fake REST API (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "jsonplaceholder",
     "gatewaySlug": "jsonplaceholder",
-    "sourceHash": "v1-c587cd8887cf3b18fd2a4dec7bf60be8cd1014c0e957c1ce1cbc650a6625fda2",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-71d64f171e20ba225dfafa8ac3d4a34c15951de905a1d6a9f97cec7c4ad81e23",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
